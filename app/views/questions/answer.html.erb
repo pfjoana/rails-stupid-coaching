@@ -1,0 +1,16 @@
+
+<div class="container">
+<h1>Stupid Coaching</h1>
+  <div class="message">
+    <p><%= params[:question] %> <br>
+    <em>-You</em></p>
+  </div>
+
+  <div class="message yellow">
+    <p> <span class="bold"><%= @answer %></span><br>
+      <em>-Your coach</em></p>
+  </div>
+
+
+  <%= link_to "Ask a new question", ask_path %>
+</div>
